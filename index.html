@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+    <link rel="stylesheet" href="css/wordle.css">
+    <script src="js/wordle.js" type="module"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Woodle</title>
+    <style>
+        .my-template {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wordle-holder">
+        <div id="title-bar">
+            <div id="title">
+                <h2 class="main">
+                    <i id="question-icon" class="bi bi-question-circle"></i>
+                    Woodle
+                    <span id="mute-button">
+                        <i id="unmuted-icon" class="icon bi bi-volume-up"></i>
+                        <i id="muted-icon" class="icon bi bi-volume-mute"></i>
+                    </span>
+                </h2>
+            </div>
+        </div>
+        <div id="display-holder">
+            <div id="display">
+                <div class="row-holder my-template">
+                    <div class="letter-frame">
+                        <div class="bouncer">
+                            <div class="letter-holder"></div>
+                        </div>
+                    </div>
+                    <div class="letter-frame">
+                        <div class="bouncer">
+                            <div class="letter-holder"></div>
+                        </div>
+                    </div>
+                    <div class="letter-frame">
+                        <div class="bouncer">
+                            <div class="letter-holder"></div>
+                        </div>
+                    </div>
+                    <div class="letter-frame">
+                        <div class="bouncer">
+                            <div class="letter-holder"></div>
+                        </div>
+                    </div>
+                    <div class="letter-frame">
+                        <div class="bouncer">
+                            <div class="letter-holder"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="control-button">Give up?</div>
+        <div id="keyboard">
+            <div class="key">
+                <div class="letter-holder"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="settings-window">
+        <p>Hi Mom!</p>
+    </div>
+
+</body>
+
+</html>
